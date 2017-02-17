@@ -47,6 +47,7 @@ def main():
     # api_scraping.php?limit=X (max 500)
 
     # TODO: KeyboardInterrupt handler
+    # TODO: replace urllib/urllib2 with requests
 
     pastebin_keys = []
     pastebin = ""
