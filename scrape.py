@@ -51,8 +51,8 @@ def main():
 
     pastebin_keys = []
     pastebin = ""
-    limit = 500  # TODO: CLI setting
-    url = "http://pastebin.com/api_scraping.php"
+    limit = 250  # TODO: CLI setting
+    url = "https://scrape.pastebin.com/api_scraping.php"
     values = {'limit': limit}
     url_values = urllib.urlencode(values)
 
